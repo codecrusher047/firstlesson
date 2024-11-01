@@ -1,3 +1,6 @@
+/**
+* The Idea of this class was born in a Café in St. Ursanne, Switzerland 
+*/  
 public class Cup {
     int size;
     int content;
