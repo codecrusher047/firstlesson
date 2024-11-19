@@ -4,9 +4,14 @@
 public class Cup {
     int size;
     int content;
+    String owner;
     
 
      
+    public Cup(String owner) {
+        this.owner = owner;
+    }
+
     public void fill (int amount){
 
         // if the amount and content is more
@@ -24,7 +29,7 @@ public class Cup {
     @Override
     public String toString() {
     
-        return "size is: " + size + " content is " + content;
+        return "owner is " + owner + " size is: " + size + " content is " + content;
     }
 
     
