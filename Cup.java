@@ -32,5 +32,10 @@ public class Cup {
         return "owner is " + owner + " size is: " + size + " content is " + content;
     }
 
+    public void empty() {
+
+    content = 0;
+    }
+
     
 }

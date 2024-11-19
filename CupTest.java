@@ -6,7 +6,7 @@ public class CupTest {
   
     @Test
     public void testEmptyCup() {
-        Cup cup = new Cup();
+        Cup cup = new Cup("Eve");
 
         cup.fill(50);
         cup.empty();
