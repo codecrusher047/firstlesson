@@ -1,7 +1,7 @@
 public class Cafe {
     public static void main(String[] args) {
-        Cup evescCup = new Cup();
-        Cup remysCup = new Cup();
+        Cup evescCup = new Cup("Eve");
+        Cup remysCup = new Cup("Remy");
 
         evescCup.size = 200;
         remysCup.size = 100;
