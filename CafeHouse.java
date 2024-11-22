@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cafe {
+public class CafeHouse {
   List<Cup>  cups = new ArrayList();   
     public static void main(String[] args) {
         Cup evesCup = new Cup("Eve");
@@ -16,7 +16,7 @@ public class Cafe {
         remysCup.fill(50);
         remysCup.fill(60);
 
-        Cafe javaNairobi = new Cafe();
+        CafeHouse javaNairobi = new CafeHouse();
         javaNairobi.register(remysCup);
         javaNairobi.register(evesCup);
 

@@ -2,11 +2,11 @@ import static org.junit.Assert.*;
 
 import org.junit.jupiter.api.Test;
 
-public class CafeTest {
+public class CafeHouseTest {
   
     @Test
     public void testListOfCups() {
-        Cafe cafe = new Cafe();
+        CafeHouse cafe = new CafeHouse();
         Cup cup = new Cup("Eve");
 
     cafe.register(cup);
