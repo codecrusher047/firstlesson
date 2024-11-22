@@ -90,6 +90,11 @@ Files that need to be published first are on «the stage» and will be commited 
 ## lesson 5 - lists and iteration
 
 - `Cafe` with `List` of `Cup` objects
+- Café can count the cups. 
+- Before we actually programmed it, we programmed the test. 
+- Rename Refactor `Cafe` to `CafeHouse` as it was confusing us. 
+
+
 - calculate the total size of the cups in the cafe etc. 
 
 
