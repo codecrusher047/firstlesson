@@ -34,7 +34,7 @@ public class Cup {
 
     public void empty() {
 
-    content = 0;
+    content = 0 ;
     }
 
     

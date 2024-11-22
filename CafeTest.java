@@ -9,9 +9,9 @@ public class CafeTest {
         Cafe cafe = new Cafe();
         Cup cup = new Cup("Eve");
 
+    cafe.register(cup);
 
-
-        assertEquals(0, cup.content);
+        assertEquals(1, cafe.countcups());
     }
    
 }
